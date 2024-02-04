@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background: gold;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: purple;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    color: purple;
+    margin: 0 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+button {
+    outline: none;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    background: purple;
+    color: goldenrod;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    background: aliceblue;
+    color: purple;
+}
